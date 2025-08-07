@@ -1,4 +1,4 @@
-# Step-by-Step CLI Guide for Basic EC2 Web Server Deployment [[EC2]] 
+# Step-by-Step CLI Guide for Basic EC2 Web Server Deployment EC2 
 
 ### Prerequisites:
 
