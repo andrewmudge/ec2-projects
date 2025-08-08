@@ -25,7 +25,7 @@
 
 [Pasted image 20250803223653.png](./Pasted image 2020250803223653.png)
 
-`aws ec2 create-security-group --group-name MyEC2SG --description "Allow SSH and http access"
+`aws ec2 create-security-group --group-name MyEC2SG --description "Allow SSH and http access"`
 
 ```bash
 {
