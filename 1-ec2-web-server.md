@@ -23,7 +23,7 @@
 
 - You have now created a Security Group inside of the region associated with your AWS account. You will see a GroupID as well as the ARN for that Security Group
 
-![Pasted image 20250803223653.png](Pasted image 2020250803223653.png)
+![Pasted image 20250803223653.png](./Pasted image 2020250803223653.png)
 
 `aws ec2 create-security-group --group-name MyEC2SG --description "Allow SSH and http access"
 
