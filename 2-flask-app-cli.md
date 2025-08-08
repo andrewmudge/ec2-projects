@@ -29,7 +29,7 @@ At completion, you'll have:
 6.   [Create the Application Load Balancer](#6-create-the-application-load-balancer)
 7.   [Configure the Listener](#7-configure-the-listener)
 8.   [Create the Auto Scaling Group](#8-create-the-auto-scaling-group)
-9.  [Test ALB & ASG Behavior](#9-test-alb-and-asg-behavior)
+9.   [Test ALB & ASG Behavior](#9-test-alb-and-asg-behavior)
 10.  [Simulate Failure & Observe Auto Healing](#10-simulate-failure-and-observe-auto-healing)
 11.  [Clean Up Resources](#11-clean-up-resources)
 12.  [Troubleshooting & Lessons Learned](#12-troubleshooting-and-lessons-learned)
@@ -255,7 +255,7 @@ In order to do this we need to create a Network Address Translation (NAT) Gatewa
 
 Disclaimer: While most of this can be accomplished in the free tier a NAT Gateway charges $.045/hour. Make sure to delete the NAT Gateway when done with testing your project with:
 
-`aws ec2 delete-nat-gateway --nat-gateway-id nat-xxxxxxxxxxxxxx
+`aws ec2 delete-nat-gateway --nat-gateway-id nat-xxxxxxxxxxxxxx`
 
 In order to set up the NAT Gateway we need to create an Public Elastic IP to associate with.
 
@@ -299,7 +299,7 @@ aws ec2 associate-route-table --subnet-id $PRIVATE_SUBNET2_ID --route-table-id $
 ```
 
 We have successfully created:
--  A VPC with DNS support
+- A VPC with DNS support
 - 2 Public Subnets for ALB
 - 2 Private Subnets for EC2
 - Internet Gateway for public access
